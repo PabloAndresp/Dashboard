@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Graficos Charts.js</title>
+  <link rel='stylesheet' href='assets/css/styles.css'>
+</head>
+
+<body>
+  <main>
+    <h1>Estadisticas Covid-19 Chile</h1>
+    <p>visualizacion de estadisticas</p>
+    <hr>
+    <section class="cols-2">
+      <figure>
+        <h2>Cantidad de Contagiados de Enero a Marzo 2023</h2>
+        <canvas id="myChart"></canvas>
+      </figure>
+      <figure>
+        <h2>Cantidad de Recuperados de Enero a Marzo 2023
+        </h2>
+        <canvas id="myChart2"></canvas>
+      </figure>
+    </section>
+    <section class="cols-1">
+      <figure>
+        <h2>Cantidad de Fallecidos desde Enero a Marzo 2023</h2>
+        <canvas id="myChart3" height="400px"></canvas>
+      </figure>
+    </section>
+  </main>
+  </body>
+  
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script src='assets/js/index.js' type='module'></script>
+
+</html>
