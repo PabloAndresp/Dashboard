@@ -28,7 +28,7 @@ const graficarMuertes = async () => {
     {
       label: 'Cantidad de Fallecidos',
       backgroundColor: getDataColor(),
-      borderColor: getDataColor(20),
+      borderColor: getDataColor(60),
       data: data_filtrada.map(dataPerDay => dataPerDay.Cases)
     }
   ];
