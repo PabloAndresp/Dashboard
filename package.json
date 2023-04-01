@@ -1,0 +1,22 @@
+{
+  "name": "dashboardd",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PabloAndresp/Dashboard.git"
+  },
+  "author": "Pablo Pavez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PabloAndresp/Dashboard/issues"
+  },
+  "homepage": "https://github.com/PabloAndresp/Dashboard#readme",
+  "dependencies": {
+    "bootstrap": "^5.2.3"
+  }
+}
