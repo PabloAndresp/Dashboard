@@ -41,7 +41,7 @@ const graficarMuertes = async () => {
 
 const graficarCasosConfirmados = async () => {
   const data = await getCoronavirusData('chile', 'confirmed');
-  //console.log( `🚀 ~ data:`, data );
+  
   let data_filtrada = await filterData(0, 2, 2023, data);
   let labels = data_filtrada.map(dataPerDay => new Date(dataPerDay.Date).toLocaleDateString());
   let datasets = [
@@ -61,7 +61,7 @@ const graficarCasosConfirmados = async () => {
 
 const graficarCasosRecuperados = async () => {
   const data = await getCoronavirusData('chile', 'recovered');
-  //console.log( `🚀 ~ data:`, data );
+  
   let data_filtrada = await filterData(0,2,2023, data);
   let labels = data_filtrada.map(dataPerDay => new Date(dataPerDay.Date).toLocaleDateString());
   let datasets = [
